@@ -40,7 +40,7 @@ requirements:
 
 test:
   imports:
-    - xpdab
+    - xpdan
 
 about:
   home: https://xpdacq.github.io/xpdAn/
