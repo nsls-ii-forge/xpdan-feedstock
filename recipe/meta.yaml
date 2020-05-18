@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://github.com/xpdAcq/xpdAn.git
+  git_url: https://github.com/xpdAcq/xpdAn/releases/download/0.8.1/xpdAn-0.8.1.tar.gz
   git_rev: {{ version }}
   git_depth: -1
 
@@ -45,3 +45,4 @@ test:
 about:
   home: https://xpdacq.github.io/xpdAn/
   license_file: LICENSE
+  summary: Python package that aids data analysis at the XPD Beamline.
