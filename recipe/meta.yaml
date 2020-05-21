@@ -5,10 +5,11 @@
 package:
   name: {{ name|lower }}
   version: {{ version }}
-  sha256: {{ sha256 }}
 
 source:
   url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
 
 build:
   noarch: python
