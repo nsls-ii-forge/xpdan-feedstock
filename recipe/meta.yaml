@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -22,29 +22,32 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - numpy
-    - scipy
+    - bluesky
+    - databroker
     - matplotlib
-    - pyyaml
-    - scikit-beam
+    - numpy
+    - ophyd
     - pyfai
     - pyxdameraulevenshtein
-    - xray-vision
-    - databroker
-    - bluesky
+    - pyyaml
     - rapidz
-    - xpdsim
+    - scikit-beam
+    - scipy
     - shed
-    - xpdview
-    - ophyd
-    - xpdtools
     - xpdconf
+    - xpdsim
+    - xpdtools
+    - xpdview
+    - xray-vision
 
 test:
   imports:
     - xpdan
 
 about:
-  home: https://xpdacq.github.io/xpdAn/
+  home: https://xpdacq.github.io
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Python package that aids data analysis at the NSLS-II XPD Beamline.
+  dev_url: https://github.com/xpdAcq/xpdAn
+  doc_url: https://xpdacq.github.io/xpdAn
