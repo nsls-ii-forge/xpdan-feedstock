@@ -1,13 +1,13 @@
 About xpdan
 ===========
 
-Home: https://xpdacq.github.io/xpdAn/
+Home: https://xpdacq.github.io
 
-Package license: 
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: 
+Summary: Python package that aids data analysis at the NSLS-II XPD Beamline.
 
 
 
