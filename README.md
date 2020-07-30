@@ -5,7 +5,7 @@ Home: https://xpdacq.github.io
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python package that aids data analysis at the NSLS-II XPD Beamline.
 
